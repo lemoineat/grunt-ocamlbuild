@@ -1,0 +1,39 @@
+{
+  "name": "grunt-ocamlbuild",
+  "description": "Use ocamlbuild to compile some OCaml code",
+  "version": "0.0.1",
+  "homepage": "https://https://github.com/lemoineat",
+  "author": {
+    "name": "Lemoine Automation Technologes, Nicolas Relange",
+    "email": "nrelange@lemoinetechnologies.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lemoineat/grunt-ocamlbuild.git"
+  },
+  "bugs": {
+    "url": "https://https://github.com/lemoineat/grunt-ocamlbuild/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "ocaml",
+    "ocamlbuild"
+  ],
+  "files": [
+    "tasks"
+  ],
+  "readmeFilename": "README.md"
+}
