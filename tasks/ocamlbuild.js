@@ -32,7 +32,7 @@ module.exports = function(grunt) {
     }
     
     grunt.verbose.writeln('Target is  ' + target);
-    var ocamlbuild_args = options.ocamlbuild.concat (['-use-ocamlfind', target]);
+    var ocamlbuild_args = options.args.concat (['-use-ocamlfind', target]);
     grunt.log.writeln('ocamlbuild ' + ocamlbuild_args.join(' '));
     grunt.util.spawn({
       cmd: 'ocamlbuild',
