@@ -1,7 +1,7 @@
 {
   "name": "grunt-ocamlbuild",
   "description": "Use ocamlbuild to compile some OCaml code",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://https://github.com/lemoineat",
   "author": {
     "name": "Lemoine Automation Technologes, Nicolas Relange",
